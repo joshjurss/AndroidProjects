@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.lewis.cs.joshjurss.viewtester2.MainActivity">
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating_bar"
+        android:numStars="5"
+        android:rating="3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:isIndicator="false"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        style="@style/SpinnerText">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pick"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:entries="@array/my_colors"
+            android:layout_weight="1"
+            android:background="@color/pink"
+            style="@style/SpinnerText"/>
+
+    </LinearLayout>
+</LinearLayout>

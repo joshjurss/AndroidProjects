@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CookieTracker</string>
+
+    <string name="cookie_name">Cookie Name</string>
+    <string name="topping">Topping</string>
+    <string name="healthy">Healthy</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question_text">This is a True/False Question!?</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="question1">Does 2 + 2 = 5?</string>
+    <string name="question2">Is the sky blue?</string>
+    <string name="question3">Is grass blue?</string>
+</resources>

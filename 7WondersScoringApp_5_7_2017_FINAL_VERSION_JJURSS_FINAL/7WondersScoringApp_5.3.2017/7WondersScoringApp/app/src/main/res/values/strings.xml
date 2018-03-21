@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">7 Wonders Duel Score Keeper</string>
+
+    <string name="p1Name">Enter a p1Name</string>
+    <string name="priority">Priority: </string>
+    <array name="priorities">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </array>
+    <string name="complete">Complete</string>
+    <string name="details">Details</string>
+    <string name="add_new_game">New Game</string>
+    <string name="add">Add</string>
+    <string name="update">Save</string>
+    <string name="delete_to_do">Delete</string>
+    <string name="title_activity_entry">EntryActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="new_game">New Game</string>
+    <string name="past_games">Past Games</string>
+
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+
+</resources>

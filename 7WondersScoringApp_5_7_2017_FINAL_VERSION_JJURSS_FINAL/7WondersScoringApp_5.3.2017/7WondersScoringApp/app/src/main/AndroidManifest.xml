@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.lewis.cs.joshjurss.sevenwondersapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo196"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EntryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ScoringActivity" android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".ListActivity" android:screenOrientation="sensorPortrait"/>
+    </application>
+
+</manifest>

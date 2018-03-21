@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.lewis.cs.joshjurss.a7wdscoring.EntryActivity"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/new_game_btn"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_gravity="center"
+        android:onClick="onNewGameButtonClick"
+        android:text="@string/new_game" />
+
+    <Button
+        android:id="@+id/past_games_btn"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_gravity="center"
+        android:onClick="onPastGamesButtonClick"
+        android:text="@string/past_games" />
+
+</LinearLayout>
